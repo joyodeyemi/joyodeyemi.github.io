@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="quiz.css">
+    <script defer src="Quiz.js"></script>
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+            <button id="next-btn" class="finish-btn btn hide">Finish</button>
+
+
+        <div id="hud" style="display: flex; justify-content: space-evenly;">
+        <div id="hud-item">
+            <p class="hud-profilx" style=" text-align: center; font-size: 2rem;">
+                Question
+            </p>
+            <h1 class="hud-main-text" id="questionCounter"  style="text-align: center;">
+            </h1>
+        </div>
+        </div>
+
+    <div id="hud" style=" display: flex; justify-content: space-evenly;">
+    <div id="hud-item">
+        <p class="hud-profilx" style=" text-align: center; font-size: 2rem;">
+            score
+        </p>
+        <h1 class="hud-main-text" id="score" style="text-align: center;">
+            0
+        </h1>
+     </div>
+     </div>
+
+
+
+
+    </div>
+
+</body>
+</html>
